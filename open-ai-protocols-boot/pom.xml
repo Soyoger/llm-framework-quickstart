@@ -21,6 +21,9 @@
         <openai-java.version>4.8.0</openai-java.version>
         <langchain4j-open-ai.version>1.10.0</langchain4j-open-ai.version>
         <langchain4j.version>1.10.0</langchain4j.version>
+        <spring-ai-openai-spring-boot-starter.version>1.0.0-M5</spring-ai-openai-spring-boot-starter.version>
+        <spring-ai-bom.version>1.0.0</spring-ai-bom.version>
+        <springdoc-openapi-starter-webmvc-ui.version>2.2.0</springdoc-openapi-starter-webmvc-ui.version>
     </properties>
     <dependencies>
         <dependency>
@@ -34,7 +37,7 @@
         <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-openai-spring-boot-starter</artifactId>
-            <version>1.0.0-M5</version>
+            <version>${spring-ai-openai-spring-boot-starter.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -65,7 +68,7 @@
         <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-bom</artifactId>
-            <version>1.0.0</version>
+            <version>${spring-ai-bom.version}</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
@@ -73,7 +76,7 @@
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-            <version>2.2.0</version>
+            <version>${springdoc-openapi-starter-webmvc-ui.version}</version>
         </dependency>
     </dependencies>
 
