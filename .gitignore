@@ -45,6 +45,7 @@ resources/application-local.properties
 
 ### IntelliJ IDEA ###
 .idea/
+.idea
 *.iws
 *.iml
 *.ipr
@@ -61,3 +62,4 @@ build/
 
 ### VS Code ###
 .vscode/
+.claide/
